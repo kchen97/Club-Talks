@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		108861E4282B2B0D55AAEC8F /* Pods_ClubTalksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA57D8A8480E6DB1BFA068A /* Pods_ClubTalksTests.framework */; };
+		823AD4878BFD543A3B327AE6 /* Pods_ClubTalksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D496D9F8AACEEFEAA3866F7 /* Pods_ClubTalksUITests.framework */; };
+		8E9D86211F9724600018EB61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E9D86201F9724600018EB61 /* GoogleService-Info.plist */; };
 		8EA77D5F1F9485A900A68ECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA77D5E1F9485A900A68ECE /* AppDelegate.swift */; };
 		8EA77D611F9485A900A68ECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA77D601F9485A900A68ECE /* ViewController.swift */; };
 		8EA77D641F9485A900A68ECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA77D621F9485A900A68ECE /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		8EA77D741F9485A900A68ECE /* ClubTalksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA77D731F9485A900A68ECE /* ClubTalksTests.swift */; };
 		8EA77D7F1F9485A900A68ECE /* ClubTalksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA77D7E1F9485A900A68ECE /* ClubTalksUITests.swift */; };
 		8EA77D8E1F9489CA00A68ECE /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA77D8D1F9489CA00A68ECE /* LoginController.swift */; };
+		AD7EEBD2C1001D3DE5FDB864 /* Pods_ClubTalks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FAE4E5081D3B7BB5B3790AF /* Pods_ClubTalks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C5AE546F64A1208193D2E90 /* Pods-ClubTalksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubTalksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClubTalksUITests/Pods-ClubTalksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1D496D9F8AACEEFEAA3866F7 /* Pods_ClubTalksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubTalksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FAE4E5081D3B7BB5B3790AF /* Pods_ClubTalks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubTalks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD95C7F4C0F816F4B5F94B0 /* Pods-ClubTalks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubTalks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClubTalks/Pods-ClubTalks.debug.xcconfig"; sourceTree = "<group>"; };
+		827EF2A76676669660439E98 /* Pods-ClubTalksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubTalksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClubTalksTests/Pods-ClubTalksTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E9D86201F9724600018EB61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8EA77D5B1F9485A900A68ECE /* ClubTalks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubTalks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA77D5E1F9485A900A68ECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EA77D601F9485A900A68ECE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,10 @@
 		8EA77D7E1F9485A900A68ECE /* ClubTalksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubTalksUITests.swift; sourceTree = "<group>"; };
 		8EA77D801F9485A900A68ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EA77D8D1F9489CA00A68ECE /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		DAD508140C3BEFEFC3926DBA /* Pods-ClubTalksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubTalksUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClubTalksUITests/Pods-ClubTalksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9580AD930044BE6DAC6B245 /* Pods-ClubTalks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubTalks.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClubTalks/Pods-ClubTalks.release.xcconfig"; sourceTree = "<group>"; };
+		E9812BBC615C0A0AE28BE40D /* Pods-ClubTalksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubTalksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClubTalksTests/Pods-ClubTalksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDA57D8A8480E6DB1BFA068A /* Pods_ClubTalksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubTalksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7EEBD2C1001D3DE5FDB864 /* Pods_ClubTalks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108861E4282B2B0D55AAEC8F /* Pods_ClubTalksTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823AD4878BFD543A3B327AE6 /* Pods_ClubTalksUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				8EA77D721F9485A900A68ECE /* ClubTalksTests */,
 				8EA77D7D1F9485A900A68ECE /* ClubTalksUITests */,
 				8EA77D5C1F9485A900A68ECE /* Products */,
+				939A9DD1F7C96B03DCDDBB1E /* Pods */,
+				EFDB18B7AB64A912CB4FE078 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +124,7 @@
 				8EA77D651F9485A900A68ECE /* Assets.xcassets */,
 				8EA77D671F9485A900A68ECE /* LaunchScreen.storyboard */,
 				8EA77D6A1F9485A900A68ECE /* Info.plist */,
+				8E9D86201F9724600018EB61 /* GoogleService-Info.plist */,
 			);
 			path = ClubTalks;
 			sourceTree = "<group>";
@@ -136,6 +156,29 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		939A9DD1F7C96B03DCDDBB1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FD95C7F4C0F816F4B5F94B0 /* Pods-ClubTalks.debug.xcconfig */,
+				E9580AD930044BE6DAC6B245 /* Pods-ClubTalks.release.xcconfig */,
+				E9812BBC615C0A0AE28BE40D /* Pods-ClubTalksTests.debug.xcconfig */,
+				827EF2A76676669660439E98 /* Pods-ClubTalksTests.release.xcconfig */,
+				DAD508140C3BEFEFC3926DBA /* Pods-ClubTalksUITests.debug.xcconfig */,
+				1C5AE546F64A1208193D2E90 /* Pods-ClubTalksUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFDB18B7AB64A912CB4FE078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FAE4E5081D3B7BB5B3790AF /* Pods_ClubTalks.framework */,
+				EDA57D8A8480E6DB1BFA068A /* Pods_ClubTalksTests.framework */,
+				1D496D9F8AACEEFEAA3866F7 /* Pods_ClubTalksUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EA77D831F9485A900A68ECE /* Build configuration list for PBXNativeTarget "ClubTalks" */;
 			buildPhases = (
+				2F765826E648538EC7D4B2A5 /* [CP] Check Pods Manifest.lock */,
 				8EA77D571F9485A900A68ECE /* Sources */,
 				8EA77D581F9485A900A68ECE /* Frameworks */,
 				8EA77D591F9485A900A68ECE /* Resources */,
+				083CF2EC7DDCAFDEF757006D /* [CP] Embed Pods Frameworks */,
+				8FF262C3AE04B32EEFA22EB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EA77D861F9485A900A68ECE /* Build configuration list for PBXNativeTarget "ClubTalksTests" */;
 			buildPhases = (
+				D0189BF94476628D95766D8A /* [CP] Check Pods Manifest.lock */,
 				8EA77D6B1F9485A900A68ECE /* Sources */,
 				8EA77D6C1F9485A900A68ECE /* Frameworks */,
 				8EA77D6D1F9485A900A68ECE /* Resources */,
+				4EF3BB5929E3A9407317D43E /* [CP] Embed Pods Frameworks */,
+				C2E279BB901C886B063BCC4A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EA77D891F9485A900A68ECE /* Build configuration list for PBXNativeTarget "ClubTalksUITests" */;
 			buildPhases = (
+				E9078D68CB92D16C9DC9F5BB /* [CP] Check Pods Manifest.lock */,
 				8EA77D761F9485A900A68ECE /* Sources */,
 				8EA77D771F9485A900A68ECE /* Frameworks */,
 				8EA77D781F9485A900A68ECE /* Resources */,
+				DC0E20929828AA724B1CBDA4 /* [CP] Embed Pods Frameworks */,
+				C31FA4CCA5E76B18159E5103 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA77D691F9485A900A68ECE /* LaunchScreen.storyboard in Resources */,
+				8E9D86211F9724600018EB61 /* GoogleService-Info.plist in Resources */,
 				8EA77D661F9485A900A68ECE /* Assets.xcassets in Resources */,
 				8EA77D641F9485A900A68ECE /* Main.storyboard in Resources */,
 			);
@@ -267,6 +320,162 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		083CF2EC7DDCAFDEF757006D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ClubTalks/Pods-ClubTalks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubTalks/Pods-ClubTalks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F765826E648538EC7D4B2A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClubTalks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EF3BB5929E3A9407317D43E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubTalksTests/Pods-ClubTalksTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF262C3AE04B32EEFA22EB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubTalks/Pods-ClubTalks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2E279BB901C886B063BCC4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubTalksTests/Pods-ClubTalksTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31FA4CCA5E76B18159E5103 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubTalksUITests/Pods-ClubTalksUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0189BF94476628D95766D8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClubTalksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC0E20929828AA724B1CBDA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubTalksUITests/Pods-ClubTalksUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9078D68CB92D16C9DC9F5BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClubTalksUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8EA77D571F9485A900A68ECE /* Sources */ = {
@@ -425,6 +634,7 @@
 		};
 		8EA77D841F9485A900A68ECE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD95C7F4C0F816F4B5F94B0 /* Pods-ClubTalks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2J85MR725D;
@@ -438,6 +648,7 @@
 		};
 		8EA77D851F9485A900A68ECE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9580AD930044BE6DAC6B245 /* Pods-ClubTalks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2J85MR725D;
@@ -451,6 +662,7 @@
 		};
 		8EA77D871F9485A900A68ECE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9812BBC615C0A0AE28BE40D /* Pods-ClubTalksTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +678,7 @@
 		};
 		8EA77D881F9485A900A68ECE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827EF2A76676669660439E98 /* Pods-ClubTalksTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,6 +694,7 @@
 		};
 		8EA77D8A1F9485A900A68ECE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD508140C3BEFEFC3926DBA /* Pods-ClubTalksUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2J85MR725D;
@@ -495,6 +709,7 @@
 		};
 		8EA77D8B1F9485A900A68ECE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5AE546F64A1208193D2E90 /* Pods-ClubTalksUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2J85MR725D;
